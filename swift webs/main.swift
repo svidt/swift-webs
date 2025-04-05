@@ -87,3 +87,5 @@ if args[1].lowercased() == "start" {
     print("Unknown command. Available commands: start / stop")
     exit(1)
 }
+
+// Changes from Xcode
