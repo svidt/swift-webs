@@ -68,7 +68,8 @@ if args[1].lowercased() == "start" {
         // Start the listener outside of connection handling
         listener.start(queue: .main)
         print("""
-        ✅ Webserver started. Running on port: \(port) 🚀
+        ✅ Webserver started
+        ✅ Running on port: \(port)
         Press CTRL+C to stop.
         """)
         
